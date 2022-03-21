@@ -1,8 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfd;
+    font-family: 'Roboto';
+    font-size: 13pt;
+}
+
+/*NAV SECTION*/
+
 nav{
+    top: 0;
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    background-color: #f2f7ff;
+    padding-top: 2rem;
 }
 .reg-btn{
     color: white;
     background-color: #d05663;
+    height: 2rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.reg-btn:hover{
+    background-color: red;
+    text-decoration: 
+}
+
+/*SECTION 1*/
+svg{
+    width: 100%;
+    margin-top: -1rem;
+}
+
+
+.sec-1{
+    background-color: #f2f7ff;
+    display: flex;
+    justify-content: space-between;
+    height: 512px;
+    padding-top: 2rem;
+
+
+    /*background: radial-gradient(120% 120px at 50% -30px, #f2f7ff 75%, transparent 75%) no-repeat;*/
+
+
+
+    /*border-bottom-left-radius: 50% 4rem;
+    border-bottom-right-radius: 50% 4rem;*/
+
+
+}
+.sec-1-div-1{
+    width: 50%;
+    padding-left: 10rem;
+}
+.sec-1-div-1 > h1{
+    font-size: 70px;
+}
+.spann{
+    color: #2B3444;
+}
+.span{
+    color: #d05663
+}
+.sec-1-div-1 > p{
+    font-size: 20px;
+    color: #2B3444;
+    margin-top: -1.5rem;
+}
+.create-store{
+    color: #f2f7ff;
+    background-color: #d05663;
+    height: 3rem;
+    width: 15rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.sec-1-div-2{
+    width: 50%;
+    padding-top: 1.5rem;
+}
+.sec-1-img{
+    width: 80%;
+    height: 25rem;
+}
+
+/*SECTION 2*/
+.sec-2 > h1{
+    text-align: center;;
+}
+.num-div{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    /*height: 10rem;*/
+}
+.num{
+    font-size: 6rem;
+    color: #d05663;
+    width: 10%;
+}
+.placard-1{
+    width: 40%;
+    /*padding: 1rem;*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #808080;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-right: 10rem;
+}
+.placard-1 > h4{
+    text-align: center;
+    font-size: 2rem;
+}
+.placard-2{
+    width: 50%;
 }
