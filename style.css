@@ -5,7 +5,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: #fdfdfd;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 13pt;
 }
 
@@ -17,10 +17,30 @@ nav{
     justify-content: space-around;
     position: sticky;
     background-color: #f2f7ff;
+    color: #2B3444;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+.home-div{
+    color: #d05663;
+    opacity: .9;
+    margin-left: 15rem;
+}
+.home-div > div{
+    background-color: #d05663;
+    height: 6%;
+    width: 50%;
+}
+.price-div{
+    margin-left: -8rem;
+}
+.dash-div{
+    margin-left: -8rem;
+    margin-right: 15rem;
 }
 .reg-btn{
-    color: white;
+    color: #fdfdfd;
     background-color: #d05663;
     height: 2rem;
     width: 8rem;
@@ -31,7 +51,7 @@ nav{
 }
 .reg-btn:hover{
     background-color: red;
-    text-decoration: 
+    text-decoration: ;
 }
 
 /*SECTION 1*/
@@ -45,7 +65,7 @@ svg{
     background-color: #f2f7ff;
     display: flex;
     justify-content: space-between;
-    height: 512px;
+    height: 600px;
     padding-top: 2rem;
 
 
@@ -67,14 +87,19 @@ svg{
 }
 .spann{
     color: #2B3444;
+    font-size: 5rem;
+    font-weight: 800;
 }
 .span{
-    color: #d05663
+    color: #d05663;
+    font-size: 5rem;
+    font-weight: 800;    
 }
 .sec-1-div-1 > p{
     font-size: 20px;
     color: #2B3444;
     margin-top: -1.5rem;
+    line-height: 2;
 }
 .create-store{
     color: #f2f7ff;
@@ -91,13 +116,27 @@ svg{
     padding-top: 1.5rem;
 }
 .sec-1-img{
-    width: 80%;
-    height: 25rem;
+    width: 75%;
+    height: 26rem;
 }
 
 /*SECTION 2*/
-.sec-2 > h1{
-    text-align: center;;
+.sec-2{
+    padding-top: 5rem;
+}
+.how{
+    text-align: center;
+    color: #2B3444;
+    margin-bottom: 7rem;
+}
+.underline{
+    background-color: #2B3444;
+    height: 0.2rem;
+    width: 25rem;
+    margin-left: 38%;
+    margin-top: -1rem;
+    border:3px solid;
+        border-radius:0px 0px 140px 0px;
 }
 .num-div{
     display: flex;
@@ -109,20 +148,64 @@ svg{
     font-size: 6rem;
     color: #d05663;
     width: 10%;
+    opacity: .3;
 }
 .placard-1{
     width: 40%;
     /*padding: 1rem;*/
     border-radius: 10px;
     box-shadow: 0px 0px 10px #808080;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin-right: 10rem;
+    height: 16rem;
 }
 .placard-1 > h4{
     text-align: center;
     font-size: 2rem;
+    color: #2B3444;
+}
+.placard-1 > p{
+    color: #808080;
+    text-align: center;
+    margin-top: -1.5rem;
+    line-height: 2;
 }
 .placard-2{
     width: 50%;
+}
+.placard-2 > h4{
+    color: black;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.placard-2 > p{
+    color: #808080;
+    line-height: 2;
+}
+
+/*SECTION 3*/
+.sec-3{
+    margin-top: 10rem;
+    background-color: #f2f7ff;
+    padding-top: 5rem;
+}
+.store-options{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5rem;
+    justify-content: space-around;
+}
+.store-box{
+    width: 25%;
+}
+.store-box > h5{
+    color: #2B3444;
+    font-size: 1.5rem;
+}
+.store-box > p{
+    color: #808080;
+    font-size: 1rem;
+    line-height: 1.8;
 }
